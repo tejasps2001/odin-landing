@@ -9,6 +9,11 @@
     font-weight: bold;
 }
 
+@font-face {
+    font-family: Roboto-lightitalic;
+    src: url(./fonts/Roboto/Roboto-LightItalic.ttf);
+}
+
 body {
     font-family: roboto, sans-serif;
     margin: 0;
@@ -41,9 +46,10 @@ body {
 button {
     background-color: #3882F6;
     color: #F9FAF8;
-    padding: 8px 16px;
+    padding: 10px 20px;
     border-radius: 10px;
     border: 1px #1F2937 solid;
+    font-weight: bold;
 }
 
 button:hover {
@@ -102,13 +108,13 @@ a {
 }
 
 .transformations {
-    width: 85vw;
+    width: 50vw;
     display: flex;
     justify-content: space-between;
 }
 
 .thumbnail {
-    width: 200px;
+    width: 125px;
     height: auto;
     border-radius: 10px;
     border: 5px #3882F6 solid;
@@ -121,4 +127,26 @@ a {
 
 .transformation p {
     text-align: center;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text {
+    font-size: 36px;
+    width: 50vw;
+    font-family: Roboto-lightitalic;
+    margin-bottom: 0;
+}
+
+.author {
+    text-align: right;
+    margin-top: 0;
+    font-size: 20px;
 }
