@@ -11,6 +11,7 @@
 
 body {
     font-family: roboto;
+    margin: 0;
 }
 
 .hero {
@@ -22,11 +23,14 @@ body {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+    flex-wrap: wrap;
+    margin: 0;
 }
 
 .secondary {
     font-size: 18px;
     color: #E5E7EB;
+    flex-wrap: wrap;
 }
 
 .logo {
@@ -37,5 +41,49 @@ body {
 button {
     background-color: #3882F6;
     color: #F9FAF8;
+    padding: 8px 16px;
+    border-radius: 10px;
+    border: 1px #1F2937 solid;
 }
 
+button:hover {
+    background-color: #3881f6c5;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    padding-left: 100px;
+    padding-bottom: 60px;
+    padding-right: 100px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+}
+
+li {
+    padding: 0 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hero-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    padding-right: 50px;
+    align-items: flex-start;
+}
