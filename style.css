@@ -131,7 +131,7 @@ a {
 
 .quote {
     background-color: #E5E7EB;
-    height: 75vh;
+    height: 55vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -149,4 +149,34 @@ a {
     text-align: right;
     margin-top: 0;
     font-size: 20px;
+}
+
+.cta {
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-box {
+    background-color: #3882F6;
+    padding: 20px 40px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 50vw;
+    border-radius: 10px;
+}
+
+.cta-box button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 8vw;
+    border: 2px white solid;
+    transition: filter 0.4s ease;
+}
+
+.cta-box button:hover {
+    filter: brightness(130%);
 }
