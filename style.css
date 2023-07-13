@@ -10,7 +10,7 @@
 }
 
 body {
-    font-family: roboto;
+    font-family: roboto, sans-serif;
     margin: 0;
 }
 
@@ -86,4 +86,39 @@ a {
     flex-direction: column;
     padding-right: 50px;
     align-items: flex-start;
+}
+
+.contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937
+}
+
+.transformations {
+    width: 85vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.thumbnail {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    border: 5px #3882F6 solid;
+    transition: filter 0.3s ease;
+}
+
+.thumbnail:hover {
+    filter: brightness(70%);
+}
+
+.transformation p {
+    text-align: center;
 }
