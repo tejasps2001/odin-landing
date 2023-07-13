@@ -15,6 +15,7 @@ body {
 
 .hero {
     background-color: #1F2937;
+    min-height: 100vh;
 }
 
 .main {
@@ -37,3 +38,4 @@ button {
     background-color: #3882F6;
     color: #F9FAF8;
 }
+
