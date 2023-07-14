@@ -60,7 +60,7 @@ button:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 15px;
+    padding-top: 25px;
     padding-left: 100px;
     padding-bottom: 60px;
     padding-right: 100px;
@@ -179,4 +179,14 @@ a {
 
 .cta-box button:hover {
     filter: brightness(130%);
+}
+
+.footer {
+    height: 10vh;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
 }
